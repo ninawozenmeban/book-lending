@@ -43,7 +43,7 @@
     let selectedBook = null;
 
     // 加载本地 books.json 数据
-    fetch('book.json')
+    fetch('books.json')
       .then(res => res.json())
       .then(data => books = data)
       .catch(err => {
